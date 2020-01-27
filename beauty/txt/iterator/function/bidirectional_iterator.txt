@@ -1,0 +1,11 @@
+self& operator ++();
+self operator ++(int);
+self& operator --();
+self& operator --(int);
+self& operator +=(difference_type n);
+self& operator -=(difference_type n);
+self operator + (difference_type n);
+self operator - (difference_type n);
+
+difference operator *();
+pointer operator ->();

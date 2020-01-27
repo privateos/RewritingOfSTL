@@ -1,0 +1,6 @@
+/*
+find_end()
+equal_range()
+inplace_merge()
+nth_element()
+*/

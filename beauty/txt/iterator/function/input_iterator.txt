@@ -1,0 +1,4 @@
+self& operator ++();
+self operator ++(int);
+difference operator *();
+pointer operator ->();

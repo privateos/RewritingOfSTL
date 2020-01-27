@@ -1,0 +1,7 @@
+self& operator ++();
+self operator ++(int);
+self& operator +=(size_type n);
+self operator + (size_type n);
+
+difference operator *();
+pointer operator ->();

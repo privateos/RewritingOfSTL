@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+#include<./beauty/allocator/simple_allocator.hpp>
+using namespace beauty::allocator;
+
+int main(){
+	int *p = simple_allocator<int>::allocate();
+	*p = 1;
+	
+	cout<<*p<<endl;
+	
+	simple_allocator<int>::deallocate(p);
+	return 0;
+}

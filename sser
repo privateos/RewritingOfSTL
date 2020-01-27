@@ -1,0 +1,7 @@
+
+#ifndef FRAME_HEADER__SSER 
+#define FRAME_HEADER__SSER
+
+#include<beauty.hpp>
+
+#endif

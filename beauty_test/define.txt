@@ -1,0 +1,15 @@
+#ifndef include___new_h
+	#define include___new_h
+	#include<new.h>
+
+
+m/n/c.h
+#define include___m__n___c_h
+调用标准库 
+例如 new.h
+#define include___std___new_h
+
+文件内部使用的宏定义规则
+beauty/allocator/type_traits/type_traits.hpp
+#define beauty__allocator__type_traits__type_traits___X
+X = a,b, c,.....
